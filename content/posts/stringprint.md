@@ -1,6 +1,5 @@
 Title: Chilcot Report
 Date: 2016-08-10 10:40
-Status: published
 Status: draft
 
 As the Chilcot Report took seven years to complete, it was a shame when released that it was only available as a PDF. 
