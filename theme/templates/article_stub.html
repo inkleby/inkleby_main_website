@@ -1,0 +1,30 @@
+
+            <article class="post" id="{{article.slug}}">
+				<div class = "content container contact-box">
+                {% if article.title %}
+                <h2 class="title">
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
+                </h2>
+				{% endif %}
+				{{ article.date.strftime("%b %d, %Y") }}
+                
+				
+					{{ article.content }}
+				
+					<div class="clear"></div>
+
+					<div class="info">
+						<a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
+						{% if article.category.name != "misc" %}
+						&nbsp;&middot;&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
+						{% endif %}
+						{% if article.tags %}
+						&nbsp;&middot;
+						{% for t in article.tags %}
+						&nbsp;<a href="{{ SITEURL }}/{{ t.url }}" class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>
+						{% endfor %}
+						{% endif %}
+					</div>
+				</div>
+            </article>
+</ul>

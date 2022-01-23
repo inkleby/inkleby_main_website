@@ -1,0 +1,72 @@
+ <div class="container text-center">
+            <hr>
+            <div class="call-to-action">
+
+
+
+    <div>
+                <div class="col-md-offset-2 col-md-2 col-sm-offset-1 col-sm-2 text-center mobile-hide">
+                    <div class="service-box contact-box">
+                        <a href="http://www.twitter.com/inkleby">
+                        <i class="fa fa-2x fa-twitter" ></i>
+                        <h4>Follow @Inkleby</h4>
+                        </a>
+                    </div>
+                </div>
+
+
+                   <div class ="col-md-4 col-sm-6"> 
+
+<form action="//inkleby.us11.list-manage.com/subscribe/post?u=34a9d0f2f914d4b2054f4f61a&amp;id=af7f90c45a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+     <h2 style="text-align:center">Sign up for updates</h2>
+<input type="hidden" value="1" name="embed"/>
+<div class="input-group">
+<input class="form-control required email"  type="email"  name="EMAIL" id="mce-EMAIL" placeholder="you@email.com" />
+<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_34a9d0f2f914d4b2054f4f61a_af7f90c45a" tabindex="-1" value=""></div>
+
+<span class="input-group-btn">
+<input class="btn btn-primary button" name="subscribe" id="mc-embedded-subscribe" type="submit" value="Subscribe">
+</span>
+</div>
+     
+     
+     
+     </form> 
+                   
+                   
+ </div>
+                
+                
+
+    <div class="col-md-offset-2 col-md-2 col-sm-offset-1 col-sm-2 text-center mobile-show">
+        <div class="service-box contact-box">
+            <a href="http://www.twitter.com/inkleby">
+            <i class="fa fa-2x fa-twitter" ></i>
+            <h4>Follow @Inkleby</h4>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="col-md-2 col-sm-2 text-center">
+                    <div class="service-box contact-box">
+                        <a href="mailto:contact@inkleby.com">
+                        <i class="fa fa-2x fa-envelope" ></i>
+                        <h4>Email Us</h4>
+                        </a>
+                    </div>
+                </div>
+                
+
+    </div>
+
+
+<!--End mc_embed_signup-->
+            </div>
+        </div>
+

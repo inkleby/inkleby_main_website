@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    {% if article.tags %}
+    <meta name="keywords" content="{{ article.tags|join(",") }}" />
+    {% endif %}
+    {% if article.description %}
+    <meta name="description" content="{{ article.description }}" />
+    {% endif %}
+{% endblock %}
+
+{% block title %}<title>{{ SITENAME }} | {{ article.title }}</title>{% endblock %}
+
+{% block content %}
+        <div class="container contact-box">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                     <h1 class="section-heading" style="margin-top:50px"><a href ="/blog">News</a></h1>
+                    <hr class="small">
+                </div>
+            </div>
+        </div>
+<div class="container">
+{% include "article_stub.html" %}
+{% if article.prev_article or article.next_article %}
+	<div style="margin-bottom:78px;margin-top:20px">
+	{% if article.prev_article %}
+	<p class="contact-box">
+	 Previous Post: <a  href="{{ SITEURL }}/{{ article.prev_article.url}}">
+				 {{ article.prev_article.title }}
+			 </a>
+	</p>
+	 {% endif %}
+	 {% if article.next_article %}
+	 <p class="contact-box">
+	 Next Post: <a  href="{{ SITEURL }}/{{ article.next_article.url}}">
+				 {{ article.next_article.title }}
+			 </a>
+	</p>
+	 {% endif %}
+	</div>
+{% endif %}
+</div>
+{% endblock %}
