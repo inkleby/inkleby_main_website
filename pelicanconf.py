@@ -75,7 +75,7 @@ DEFAULT_ORPHANS = 2
 GOOGLE_ANALYTICS = ""
 
 SECTIONS = (
-    ('StringPrint', 'fa-newspaper-o' ,'/stringprint'),
+    #('StringPrint', 'fa-newspaper-o' ,'/stringprint'),
     ('Projects', 'fa-cog' ,'/projects'),
     ('Blog', 'fa-newspaper-o' ,'/blog'),
     ('About', 'fa-newspaper-o' ,'/about'),

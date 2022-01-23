@@ -1,7 +1,7 @@
 Title: Coverage of lettingfees.co.uk
 Date: 2016-06-08 10:40
 Status: published
-[lettingfees.co.uk](http://lettingfees.co.uk) has been updated with information about hundreds more letting agents and [a report](http://lettingfees.co.uk/report/) revealing what the site has discovered so far. The report is the first public demonstration of stringprint, our [longform publishing system](http://inkleby.com/stringprint/) - more on that soon. 
+[lettingfees.co.uk](https://lettingfees.inkleby.com) has been updated with information about hundreds more letting agents and [a report](https://lettingfees.inkleby.com/report/) revealing what the site has discovered so far. The report is the first public demonstration of stringprint, our [longform publishing system](http://inkleby.com/stringprint/) - more on that soon. 
 
 Coverage of lettingfees.co.uk:
 
