@@ -11,9 +11,9 @@ AUTHOR = u'Alex Parsons'
 SITENAME = u'inkleby.com'
 SITEURL = 'http://www.inkleby.com'
 
-from plugins import neighbors
+#from plugins import neighbors
 
-PLUGINS = [neighbors]
+#PLUGINS = [neighbors]
 
 PATH = 'content'
 
